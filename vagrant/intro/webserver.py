@@ -30,6 +30,10 @@ class webserverHandler(BaseHTTPRequestHandler):
 				print output
 				return
 
+			if self.path.endswith('/restaurants'):
+				pass
+
+
 		except IOError:
 			self.send_error(404, 'File Not Found %s' % self.path)
 

@@ -31,7 +31,6 @@ menuItem2 = MenuItem(name="Veggie Burger", description="Juicy grilled veggie pat
 session.add(menuItem2)
 session.commit()
 
-
 menuItem1 = MenuItem(name="French Fries", description="with garlic and parmesan",
                      price="$2.99", course="Appetizer", restaurant=restaurant1)
 
